@@ -1,0 +1,85 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    border-radius: 50%;
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-delay:1s; */
+    /* transition shorthand */
+    /* transition: all 2s ease-in 1s; */
+    position: absolute;
+    top: 40px;
+    left: 100px;
+    /* animation-name: colorAnimate;
+    animation-duration: 0.25s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal; */
+    animation: colorAnimate 4s ease-in 0s infinite alternate-reverse;
+}
+
+@keyframes colorAnimate {
+    /* from{
+        left: 0px;
+        background-color: yellow; 
+        font-size: 20px;
+    }
+    to{
+        left: 100px;
+        background-color: red; 
+        font-size: 40px;
+    } */
+    0%{
+        left: 0px;
+        background-color: yellow; 
+        font-size: 20px;
+    }
+    50%{
+        background-color: blue;
+    }
+    100%{
+        left: 100px;
+        background-color: red; 
+        font-size: 40px;
+    }
+}
+
+div:hover{
+    background-color: red;
+    color:aliceblue;
+    font-size: 20px;
+    /* z doesn't create any effect, x and y creates it*/
+    /* transform: rotatez(360deg); */
+    /* transform: scalex(2); */
+    /* transform: translate(100px,80px); */
+    /* transform: skew(90deg); */
+}
+
+div:active{
+    background-color: blue;
+    color:black;
+} 
+
+.ps8{
+    border: 20px solid #ffe66d;
+    border-top: 20px solid #4ecdc4;
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    display: flex;
+    justify-content: center;
+    animation: ps8 2s ease-in 0s infinite normal;
+}
+
+@keyframes ps8 {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
