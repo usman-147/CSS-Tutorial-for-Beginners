@@ -1,0 +1,162 @@
+/* Universally, developers set their padding and margin 0 */
+.head {
+    width: 200px;
+    height: 50px;
+    background-color: aquamarine;
+    /* border-width: 3px;
+    border-style: dashed;
+    border-color: black; */
+    border: 3px dashed black;  /*shorthand */
+    text-align: center;
+}
+
+.p {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    /* border-width: 5px;
+    border-style: dotted;
+    border-color: chartreuse; */
+    border: 5px dotted chocolate;  
+    text-align: left;
+    border-radius: 15px; /*for a circle border = 50%, most imp height & width should be 100px*/
+    /* padding : area between content and border */
+    padding: 1px 2px 3px 4px; /*top | right | bottom | left | clockwise*/
+    /* by default div takes the width area as margin */
+    /* margin : area between 2 boxes */
+    margin: 1px 2px 3px 4px; /*top | right | bottom | left | clockwise*/
+}
+
+.ps3 {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    color: white; /*to overrule the .ps31 color */
+}
+#logo {
+    color: orange;
+    font-size: 25px;
+}
+button {
+    background-color: #F08804;
+}
+a {
+    margin-right: 200px;
+    text-decoration: none; /*to remove the underline in link*/
+}
+.ps31 {
+    height: 60px;
+    background-color: black;
+    border: 5px solid green;
+}
+
+.dp {
+    color: black;
+}
+
+/* Display Properties */
+/* inline : occupies only the space of content (no padding and margin) */
+/* block : occupies the whole screen width */
+/* inline-block : acts as inline, but can set padding and margin */
+/* none : completely vanishes the component along with its space */
+
+.b1 {
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+    margin: 25px;
+    display: inline-block;
+    background-color: red;
+}
+
+.b2 {
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+    margin: 25px;
+    display: inline-block;
+    /* if I use this visibility, it will come in next line, as it requires whole section*/
+    /* visibility: hidden; vanishes the content, but doesn't remove spaces */
+    background-color: blue;
+}
+
+.b3 {
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+    margin: 25px;
+    display: inline-block;
+    background-color:green;
+}
+
+/* RGBA : A stands for Alpha Channel
+opacity means the texture of the color i.e darker/lighter, it sets the value of A from 0-1,, 0-no color, 1-full color */
+
+.box1 {
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+    margin: 25px;
+    display: inline-block;
+    background-color: rgba(0,0,255,0.5);
+}
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+    margin: 25px;
+    display: inline-block;
+    background-color: rgba(0,0,255,0.75);
+}
+
+.box3 {
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+    margin: 25px;
+    display: inline-block;
+    background-color: rgba(0,0,255,1);
+}
+
+.content {
+    height: 100px;
+}
+
+.d1 {
+    color: red;
+    width: 100px;
+    height: 100px;
+    border: 3px dotted chartreuse;
+    background-color: rgba(255, 0, 0, 0.5);
+    display: inline-block;
+}
+
+.d2 {
+    color: green;
+    width: 100px;
+    height: 100px;
+    border: 5px dashed chocolate;
+    background-color: rgba(0, 255, 0, 0.5);
+    display: inline-block;
+}
+
+.d3 {
+    color: blue;
+    width: 100px;
+    height: 100px;
+    border: 1rem solid  cyan; /*don't add pixels*/
+    background-color: rgba(0,0,255,0.5);
+    display: inline-block;
+}
+.foot {
+    margin-top: 30px;
+    text-align: center;
+    background-color: black;
+}
