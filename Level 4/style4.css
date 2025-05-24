@@ -1,0 +1,108 @@
+body{
+    text-align: center;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    /* display: inline-block; */
+    background-color: blueviolet;
+    border: 2px solid black;
+}
+
+#container{
+    height: 200px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /*for main axis(left to right) */
+    flex-wrap: wrap;
+    align-items: center; /*for cross axis(top to bottom) */
+    align-content: center; /*overruling align-self for box5*/
+}
+
+#box1{
+    background-color: aqua;
+}
+
+#box2{
+    background-color: pink;
+}
+
+#box3{
+    background-color: darkkhaki;
+}
+
+#box4{
+    background-color: indianred;
+}
+
+#box5{
+    background-color: slateblue;
+    /* doesn't work when flex-wrap:wrap */
+    align-self: flex-end; /*why this got overruled again is because align-content has more priority than this*/
+}
+
+a{
+    text-decoration: none;
+    color: red;
+}
+li{
+    list-style-type: none;
+    /* display: inline; */
+}
+.ps5{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.outer{
+    height: 200px;
+    width: 800px;
+    display: inline;
+    display: flex;
+    justify-content: center; /*for main axis(left to right) */
+    align-items: center; /*for cross axis(top to bottom) */
+}
+
+.inner{
+    background-color: sandybrown;
+    height: 100px;
+    width: 500px;
+    display: flex;
+    /* flex-direction: row ; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+@media (width:600px) {
+    div{
+        background-color: red;
+    }
+}
+
+@media (min-width: 600px){
+    div{
+        background-color: blue;
+    }
+}
+
+@media (max-width: 300px){
+    div{
+        background-color: green;
+    }
+}
+
+@media (min-width:300px) and (max-width:400px){
+    div{
+        background-color: pink;
+    }
+}
+
+@media (min-width:400px) and (max-width:600px){
+    div{
+        background-color: red;
+    }
+}
