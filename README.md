@@ -43,7 +43,7 @@ This tutorial guides you through fundamental CSS techniques—from basic selecto
 ---
 
 ## 📂 Project Structure
-
+<pre>
 CSS-Tutorial-for-Beginners/
 ├── README.md
 ├── Level 1/
@@ -63,7 +63,7 @@ CSS-Tutorial-for-Beginners/
 └── Level 5/    
 ├── index.html
 └── style5.css
-
+</pre>
 ---
 
 ✍️ Author
