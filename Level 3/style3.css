@@ -1,0 +1,72 @@
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    font-size: 10px;
+}
+
+#box2{
+    height: 50px;
+    width: 33%;
+    background-color: yellow;
+    margin-left: 20%;
+    /* nem: where n is any integer */
+    font-size: 2em;
+    /* now font size is 20 px, so width will be 20x5=100px */
+    width: 5rem;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+.box1{
+    position: sticky;
+    top: 0px;
+}
+
+.box2{
+    position: relative;
+    top: 20px;
+    left: 0px;
+}
+
+.box3{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.box4{
+    position: fixed;
+    top: 0px;
+    margin-left: 500px  ;
+}
+
+.box5{
+    background-image: url(photo.jpeg);
+    /* 3 background sizes: 1)cover: doesn't leave any empty spaces, but also doesn't completely fit the image
+                           2)contain: it also don't leave any empty spaces, and repeats the image if any empty spaces are there */
+    background-size: cover; /*most used*/
+    /* background-repeat: no-repeat; it is used when contain is used*/
+}
+
+.box6{
+    background-color: blueviolet;
+    position: absolute;
+    left: 50px;
+    z-index: -1;
+}
+
+.ps5{
+    height: 100px;
+    width: 100px;
+    background-image: url(photo.jpeg);
+    background-size: cover;
+    position: absolute;
+    right: 0px;
+}
