@@ -7,9 +7,9 @@ A hands-on, beginner-level tutorial showcasing core CSS concepts—committing ea
 ## 📚 Table of Contents
 
 1. [Overview](#overview)  
-2. [What You’ll Learn](#what-youll-learn)  
-3. [Project Structure](#project-structure)  
-4. [Getting Started](#getting-started)  
+2. [What You’ll Learn](#what-youll-learn)
+3. [Skills Practiced](#skills-practiced)  
+4. [Project Structure](#project-structure)   
 5. [Author](#author)
 
 ---
