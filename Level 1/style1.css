@@ -1,0 +1,108 @@
+* {
+    color: blue;
+}
+
+h1 {
+    color: black;
+}
+
+body {
+    background-color: aqua;
+}
+
+#big {
+    color: darkviolet;
+}
+
+#small {
+    color:tomato;
+}
+
+.myClass {
+    color: gold;
+}
+
+#box {
+    color: black;
+    background-color: blue;
+}
+
+.heading { /*H1, H2, H3*/
+    color: red;
+}
+
+#pink {
+    background-color: green;
+}
+
+.alignment {
+    /*forward writing start=left end=right backward writing start=right and end=left*/
+    text-align: right; /*left, center, right*/
+}
+
+.text {
+    text-align: center;
+}
+
+.decoration1 {
+    color: gold;
+    text-decoration: red wavy underline;
+}
+    
+.decoration2 {
+    color: violet;
+    text-decoration:blue dotted overline;
+}
+
+.decoration3 {
+    color: sandybrown;
+    text-decoration:green dashed line-through;
+}
+
+a {
+    text-decoration: none;
+}
+
+.normal {
+    font-weight: normal;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bolder {
+    font-weight: bolder;
+}
+
+.lighter {
+    font-weight: lighter
+}
+
+.ff {
+    font-family: Arial, Helvetica, sans-serif; /*3 ffs for browser compatibility used as priority wise called fallback mechanism */
+}
+
+.p1 {
+    font-size: 20px;
+    line-height: 40px;
+    text-transform: uppercase; /*none, capitalize, lowercase*/
+}
+
+.p2 {
+    font-size: 30px;
+}
+
+.set2{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Times New Roman';
+}
+
+.outer {
+    font-size: 25px;
+}
+
+.inner {
+    font-size: 10px;
+}
